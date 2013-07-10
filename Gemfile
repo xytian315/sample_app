@@ -12,6 +12,7 @@ gem 'sqlite3', '1.3.5'
 gem 'rspec-rails', '2.9.0'
 gem 'guard-rspec'
 gem 'annotate'
+gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
@@ -37,6 +38,7 @@ gem 'rb-fsevent', :require => false
 gem 'growl', '1.0.3'
 gem 'guard-spork', '1.5.1'
 gem 'spork', '0.9.2'
+gem 'factory_girl_rails'
 end
 
 group :production do gem 'pg', '0.12.2'
